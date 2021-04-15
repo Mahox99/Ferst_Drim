@@ -6,8 +6,9 @@ public class KoscOfTruSCR : MonoBehaviour
 {
     public float Distance;
     public GameObject ActionText;
-    public GameObject tlo;
-    public GameObject Cube;
+    public GameObject background;
+    public GameObject cube;
+
     void Update()
     {
         Distance = PLayerCasting.DistanceFromTarget;
@@ -18,17 +19,17 @@ public class KoscOfTruSCR : MonoBehaviour
         if (Distance <= 3)
         {
             ActionText.SetActive(true);
-            tlo.SetActive(true); 
+            background.SetActive(true); 
         }
         else
         {
             ActionText.SetActive(false); 
-            tlo.SetActive(false);
+            background.SetActive(false);
         }
     }
     void OnMouseExit()
     {
         ActionText.SetActive(false);
-        tlo.SetActive(false);
+        background.SetActive(false);
     }
 }
