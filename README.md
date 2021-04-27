@@ -1,5 +1,5 @@
 # Ferst_Drim
-Simple fps game in Unity where player can explore open world and discover fictional content.
+Simple fps game in Unity where the player can explore openworld and discover fictional content. 
 Main features:
 
 - expanded 3D map includes idustry buldings and natural surface. 
